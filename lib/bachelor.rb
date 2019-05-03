@@ -34,7 +34,7 @@ def get_occupation(data, hometown)
   person = nil
   data.each do |hash_season, contestants_array|
     contestants_array.each do |contestant|
-      if contestant["hometown"] = hometown
+      if contestant["hometown"] == hometown
         person = contestant["occupation"]
       end
     end
