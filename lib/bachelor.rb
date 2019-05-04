@@ -52,10 +52,3 @@ def get_average_age_for_season(data, season)
   avg_age = (age/count).round
   return avg_age
 end
-
-
-
-
-
-
-
